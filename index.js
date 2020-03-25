@@ -1,3 +1,84 @@
+function switchVisible() {
+            if (document.getElementById('box')) {
+	                if (document.getElementById('box').style.display == 'none') {
+                    document.getElementById('box').style.display = 'block';
+                    document.getElementById('dirbox').style.display = 'none';
+                }
+                else {
+                    document.getElementById('box').style.display = 'none';
+                    document.getElementById('dirbox').style.display = 'block';
+                }
+            }
+}
+
+var allowedKeys = {37: 'l',38: 'u',39: 'r',40: 'd',65: 'a',66: 'b'};
+var konamiCode = ['u', 'u', 'd', 'd', 'l', 'r', 'l', 'r', 'b', 'a'];
+var konamiCodePosition = 0;
+
+document.addEventListener('keydown', function(e) {
+  var key = allowedKeys[e.keyCode];
+  var requiredKey = konamiCode[konamiCodePosition];
+
+  if (key == requiredKey) {
+    konamiCodePosition++;
+    if (konamiCodePosition == konamiCode.length) {
+      activateCheats();
+      konamiCodePosition = 0;
+    }
+  } else {
+    konamiCodePosition = 0;
+  }
+});
+
+function activateCheats() {
+            document.getElementById('desc1').innerHTML = 'You';
+            document.getElementById('desc2').innerHTML = 'Found';
+            document.getElementById('desc3').innerHTML = 'The';
+            document.getElementById('desc4').innerHTML = 'Secret';
+            document.getElementById('desc5').innerHTML = 'Congratulations!';
+	setTimeout(function(){
+                window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+            }, 5000);
+}
+
+//=================
+//    Easter Eggs
+//=================
+function EasterEgg() {
+    var EasterEggChance = Math.floor((Math.random() * 100) + 1);
+    //console.log ("Easter Egg: " + EasterEggChance);
+    if (EasterEggChance == 1) {
+        var EasterEgg = Math.floor((Math.random() * 3) + 1);
+        if (EasterEgg == 1) {
+            console.log("Easter Egg 1 Activated.");
+            document.getElementById('desc1').innerHTML = 'Never';
+            document.getElementById('desc2').innerHTML = 'Gonna';
+            document.getElementById('desc3').innerHTML = 'Give';
+            document.getElementById('desc4').innerHTML = '<br>You';
+            document.getElementById('desc5').innerHTML = 'Up';
+            setTimeout(function(){
+                window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+            }, 30000);
+        }
+        else if (EasterEgg == 2 ) {
+            console.log("Easter Egg 2 Activated.");
+            document.getElementById('desc1').innerHTML = 'K';
+            document.getElementById('desc2').innerHTML = 'A';
+            document.getElementById('desc3').innerHTML = 'P';
+            document.getElementById('desc4').innerHTML = 'P';
+            document.getElementById('desc5').innerHTML = 'A';
+        }
+        else if (EasterEgg == 3 ) {
+            console.log("Easter Egg 3 Activated.");
+            document.getElementById('desc1').innerHTML = "Don't";
+            document.getElementById('desc2').innerHTML = 'Do';
+            document.getElementById('desc3').innerHTML = 'Bad';
+            document.getElementById('desc4').innerHTML = 'Things';
+            document.getElementById('desc5').innerHTML = '<br>- Talon';
+        }
+    }
+}
+
 /**
  * requestAnimationFrame
  */
@@ -294,25 +375,6 @@ Particle.prototype = (function(o) {
         this.add(this._speed);
     }
 
-    // render: function(ctx) {
-    //     if (this._speed.length() > 12) this._speed.normalize().scale(12);
-
-    //     this._latest.set(this);
-    //     this.add(this._speed);
-
-    //     ctx.save();
-    //     ctx.fillStyle = ctx.strokeStyle = '#fff';
-    //     ctx.lineCap = ctx.lineJoin = 'round';
-    //     ctx.lineWidth = this.radius * 2;
-    //     ctx.beginPath();
-    //     ctx.moveTo(this.x, this.y);
-    //     ctx.lineTo(this._latest.x, this._latest.y);
-    //     ctx.stroke();
-    //     ctx.beginPath();
-    //     ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
-    //     ctx.fill();
-    //     ctx.restore();
-    // }
 });
 
 
@@ -323,7 +385,7 @@ Particle.prototype = (function(o) {
 
     // Configs
 
-    var BACKGROUND_COLOR      = 'rgba(11, 51, 56, 1)',
+    var BACKGROUND_COLOR      = 'rgba(54, 57, 63, 1)',
         PARTICLE_RADIUS       = 1,
         G_POINT_RADIUS        = 10,
         G_POINT_RADIUS_LIMITS = 65;
@@ -451,23 +513,6 @@ Particle.prototype = (function(o) {
     canvas.addEventListener('mouseup', mouseUp, false);
     canvas.addEventListener('dblclick', doubleClick, false);
 
-
-    // GUI
-
-   // gui = new dat.GUI();
-   // gui.add(control, 'particleNum', 0, 500).step(1).name('Particle Num').onChange(function() {
-   //     var n = (control.particleNum | 0) - particles.length;
-   //     if (n > 0)
-   //         addParticle(n);
-   //     else if (n < 0)
-   //         removeParticle(-n);
-   // });
-   // gui.add(GravityPoint, 'interferenceToPoint').name('Interference Between Point');
-   // gui.close();
-
-
-    // Start Update
-
     var loop = function() {
         var i, len, g, p;
 
@@ -494,11 +539,6 @@ Particle.prototype = (function(o) {
         bufferCtx.globalAlpha = 0.35;
         bufferCtx.fillRect(0, 0, screenWidth, screenHeight);
         bufferCtx.restore();
-
-        // パーティクルをバッファに描画
-        // for (i = 0, len = particles.length; i < len; i++) {
-        //     particles[i].render(bufferCtx);
-        // }
         len = particles.length;
         bufferCtx.save();
         bufferCtx.fillStyle = bufferCtx.strokeStyle = '#fff';
@@ -521,7 +561,6 @@ Particle.prototype = (function(o) {
         bufferCtx.fill();
         bufferCtx.restore();
 
-        // バッファをキャンバスに描画
         context.drawImage(bufferCvs, 0, 0);
 
         requestAnimationFrame(loop);
@@ -529,3 +568,4 @@ Particle.prototype = (function(o) {
     loop();
 
 })();
+
