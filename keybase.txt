@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/samm4x
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://samm4x.xyz
+  * I am samm4x (https://keybase.io/samm4x) on keybase.
+  * I have a public key ASBSbg023cBBTRZb1LCttLlIs29zjnIz7N3wiVAgWyPwnAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ef35fb5cc41576221f950557b20815fb4297084c15be5955ca67bc178a0e94b80a",
+      "host": "keybase.io",
+      "kid": "0120526e0d36ddc0414d165bd4b0adb4b948b36f738e7233ecddf08950205b23f09c0a",
+      "uid": "62f779328f6d348d961385db2f722d19",
+      "username": "samm4x"
+    },
+    "merkle_root": {
+      "ctime": 1585213232,
+      "hash": "f865d046325d51c08ebd398ec8e955944a4ba4a16b047be90fb7c3fcfd631e0d8fe61e187395ff758fec5e2b6146b8cdd223203f5f21fde07ecb95b75a3f1e03",
+      "hash_meta": "e30ce5f1c2259feb9dde5dd21d0e206e91b8f2b0d9e976db1bfd5be5ffd872aa",
+      "seqno": 15620337
+    },
+    "service": {
+      "entropy": "sTPznwNGocEsrV0wAQqx7xlH",
+      "hostname": "samm4x.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.3.0"
+  },
+  "ctime": 1585213242,
+  "expire_in": 504576000,
+  "prev": "f79b497d3a21fbedc2099819a3faf10a098ed2c1e63a395b6b9d2f4484fa7ac3",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgUm4NNt3AQU0WW9SwrbS5SLNvc45yM+zd8IlQIFsj8JwKp3BheWxvYWTESpcCDMQg95tJfToh++3CCZgZo/rxCgmO0sHmOjlba50vRIT6esPEIAc8599xajIuuEENm0cjwOcVUi27EGsPljB/wbphPPAHAgHCo3NpZ8RAVNpdLlbX+7pTfslw8qmcLQWWDvXpFBm3v607LSBLFUI55nMy2rJX105rxnnjAzxmGiNkaHDs3sCUAsoXoLFaBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMmgqkSzKlXhZuKcGkC2aasT2lR4zAkUGqGaBjN4a0Clo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/samm4x
+
+==================================================================
