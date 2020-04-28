@@ -2,24 +2,26 @@
 
 # samm4x's Website (www.samm4x.xyz)
 
-> samm4x's website, hosted by [GitHub Pages](https://pages.github.com/); and therefore, all updates to the website will be comitted through this repo!
+- samm4x's website, hosted by [GitHub Pages](https://pages.github.com/); and therefore, all updates to the website will be comitted through this repo!
 
-> Website design by [@CubityFirst](https://github.com/CubityFirst/cubityfir.st), and edited by me, [samm4x](https://github.com/samm4x/)!
+- Website design by [@CubityFirst](https://github.com/CubityFirst/cubityfir.st), and edited by me, [samm4x](https://github.com/samm4x/)!
 
-> If you find any issues report them through GitHub on [the issues section](https://github.com/samm4x/website/issues)!
+- You can see all versions of the site on the [releases page](https://github.com/samm4x/website/releases)!
 
-> Think something should be changed or added? Open a [pull request](https://github.com/samm4x/website/pulls)!
+- If you find any issues report them through GitHub on [the issues section](https://github.com/samm4x/website/issues)!
 
-> My legacy website can be found [here](https://www.github.com/samm4x/legacy-website/).
+- Think something should be changed or added? Open a [pull request](https://github.com/samm4x/website/pulls)!
+
+- My legacy website can be found [here](https://www.github.com/samm4x/legacy-website/).
 
 ## Contact me!
 
-> Email me: [hello@samm4x.xyz](mailto:hello@samm4x.xyz)
+- Email me: [hello@samm4x.xyz](mailto:hello@samm4x.xyz)
 
-> Discord: samm4x#0001 or you can message me on [Telegram](https://t.me/samm4x/)
+- Discord: samm4x#0001 or you can message me on [Telegram](https://t.me/samm4x/)
 
-> Other forms of contact, if needed, can be found on my [website!](https://samm4x.xyz)
+- Other forms of contact, if needed, can be found on my [website!](https://samm4x.xyz)
 
-## My other projects...
+## :pencil2: My other projects...
 
-> Coming soon!
+Coming soon!
