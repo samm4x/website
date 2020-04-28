@@ -1,6 +1,6 @@
 <a href="https://samm4x.xyz"><img src="https://raw.githubusercontent.com/samm4x/website/master/assets/banner.png" title="samm4x" alt="samm4x"></a>
 
-# 💻 samm4x's Website (www.samm4x.xyz)
+# 💻 samm4x's Website
 
 - samm4x's website, hosted by [GitHub Pages](https://pages.github.com/); and therefore, all updates to the website will be comitted through this repo!
 
