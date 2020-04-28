@@ -1,4 +1,4 @@
-<a href="https://samm4x.xyz"><img src="https://avatars0.githubusercontent.com/u/48508802?s=460&u=47dee776cf10657e7e453e3b61860294c99acb7b&v=4" title="samm4x" alt="samm4x"></a>
+<a href="https://samm4x.xyz"><img src="https://raw.githubusercontent.com/samm4x/website/master/assets/banner.png" title="samm4x" alt="samm4x"></a>
 
 # samm4x's Website (www.samm4x.xyz)
 
