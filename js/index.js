@@ -37,7 +37,7 @@ function activateCheats() {
             document.getElementById('desc4').innerHTML = 'Secret';
             document.getElementById('desc5').innerHTML = 'Congratulations!';
 	setTimeout(function(){
-                window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+                window.location.replace("https://www.twitch.tv/cha00tiic");
             }, 5000);
 }
 
