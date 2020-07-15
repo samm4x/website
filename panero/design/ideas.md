@@ -1,4 +1,4 @@
-# Island Ideas
+Island Ideas
 
 https://www.reddit.com/r/ac_newhorizons/comments/hg5250/i_terraformed_my_island_entrance/
 https://www.reddit.com/r/AnimalCrossing/comments/gysis9/my_house_entrance_is_finally_complete/
@@ -8,7 +8,8 @@ https://www.reddit.com/r/AnimalCrossing/comments/gup0yw/feeling_proud_of_my_pott
 https://www.reddit.com/r/AnimalCrossing/comments/g9eohn/had_a_blast_putting_together_my_plant_workspace/
 https://www.reddit.com/r/AnimalCrossing/comments/ga08qx/really_happy_with_how_my_deck_turned_out_ive/
 
-## How to add to the list!
+How to add to the list!
+
 > Make a GitHub account.
 > Go to https://github.com/samm4x/website
 > Fork this repository (button in the top right), to create a copy of it for your.
