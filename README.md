@@ -1,3 +1,6 @@
+## ⚠️Website is currently down. 
+###### (As of 14th November 2020)
+
 <a href="https://samm4x.xyz"><img src="https://raw.githubusercontent.com/samm4x/website/master/assets/banner.png" title="samm4x" alt="samm4x"></a>
 
 # 💻 samm4x's Website
